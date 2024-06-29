@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DF9CAA082C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9CAA072C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift */; };
-		DF9CAA0A2C300C6200B49536 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9CAA092C300C6200B49536 /* ContentView.swift */; };
 		DF9CAA0C2C300C6300B49536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA0B2C300C6300B49536 /* Assets.xcassets */; };
 		DF9CAA0F2C300C6300B49536 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA0E2C300C6300B49536 /* Preview Assets.xcassets */; };
 		DF9CAA1B2C300E9700B49536 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA172C300E9700B49536 /* CircularStd-Black.otf */; };
@@ -16,12 +15,14 @@
 		DF9CAA1D2C300E9700B49536 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA192C300E9700B49536 /* CircularStd-Book.otf */; };
 		DF9CAA1E2C300E9700B49536 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */; };
 		DFE1E6952C30194200FD1610 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E6942C30194200FD1610 /* UIExtension.swift */; };
+		DFE1E6972C3019A600FD1610 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE1E6962C3019A600FD1610 /* Launch Screen.storyboard */; };
+		DFE1E6992C301E6700FD1610 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E6982C301E6700FD1610 /* MainTabView.swift */; };
+		DFE1E69C2C302FD800FD1610 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E69B2C302FD800FD1610 /* TabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF9CAA042C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalMusicPlayerAppWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9CAA072C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalMusicPlayerAppWithSwiftUIApp.swift; sourceTree = "<group>"; };
-		DF9CAA092C300C6200B49536 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF9CAA0B2C300C6300B49536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF9CAA0E2C300C6300B49536 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF9CAA172C300E9700B49536 /* CircularStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Black.otf"; sourceTree = "<group>"; };
@@ -30,6 +31,10 @@
 		DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
 		DF9CAA1F2C300F4E00B49536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DFE1E6942C30194200FD1610 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		DFE1E6962C3019A600FD1610 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DFE1E6982C301E6700FD1610 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		DFE1E69B2C302FD800FD1610 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		DFE1E69D2C3036E100FD1610 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,7 @@
 		DF9CA9FB2C300C6200B49536 = {
 			isa = PBXGroup;
 			children = (
+				DFE1E69D2C3036E100FD1610 /* README.md */,
 				DF9CAA062C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUI */,
 				DF9CAA052C300C6200B49536 /* Products */,
 			);
@@ -63,9 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				DF9CAA152C300C7300B49536 /* App */,
-				DF9CAA092C300C6200B49536 /* ContentView.swift */,
 				DF9CAA162C300E8200B49536 /* Fonts */,
 				DF9CAA1F2C300F4E00B49536 /* Info.plist */,
+				DFE1E6962C3019A600FD1610 /* Launch Screen.storyboard */,
 				DF9CAA212C30103B00B49536 /* Models */,
 				DF9CAA0D2C300C6300B49536 /* Preview Content */,
 				DFE1E6912C30190900FD1610 /* UICommon */,
@@ -129,6 +135,7 @@
 		DF9CAA262C30106B00B49536 /* MainTab */ = {
 			isa = PBXGroup;
 			children = (
+				DFE1E6982C301E6700FD1610 /* MainTabView.swift */,
 			);
 			path = MainTab;
 			sourceTree = "<group>";
@@ -143,6 +150,7 @@
 		DFE1E6912C30190900FD1610 /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
+				DFE1E69A2C302FCF00FD1610 /* Components */,
 				DFE1E6932C30192B00FD1610 /* Extensions */,
 			);
 			path = UICommon;
@@ -154,6 +162,14 @@
 				DFE1E6942C30194200FD1610 /* UIExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DFE1E69A2C302FCF00FD1610 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DFE1E69B2C302FD800FD1610 /* TabButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +236,7 @@
 				DF9CAA0F2C300C6300B49536 /* Preview Assets.xcassets in Resources */,
 				DF9CAA0C2C300C6300B49536 /* Assets.xcassets in Resources */,
 				DF9CAA1E2C300E9700B49536 /* CircularStd-Medium.otf in Resources */,
+				DFE1E6972C3019A600FD1610 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,9 +247,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF9CAA0A2C300C6200B49536 /* ContentView.swift in Sources */,
 				DFE1E6952C30194200FD1610 /* UIExtension.swift in Sources */,
+				DFE1E69C2C302FD800FD1610 /* TabButton.swift in Sources */,
 				DF9CAA082C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift in Sources */,
+				DFE1E6992C301E6700FD1610 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -372,6 +391,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -395,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -405,6 +426,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (

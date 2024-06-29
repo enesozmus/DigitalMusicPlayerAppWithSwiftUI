@@ -15,6 +15,7 @@
 		DF9CAA1C2C300E9700B49536 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA182C300E9700B49536 /* CircularStd-Bold.otf */; };
 		DF9CAA1D2C300E9700B49536 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA192C300E9700B49536 /* CircularStd-Book.otf */; };
 		DF9CAA1E2C300E9700B49536 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */; };
+		DFE1E6952C30194200FD1610 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E6942C30194200FD1610 /* UIExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DF9CAA192C300E9700B49536 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
 		DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
 		DF9CAA1F2C300F4E00B49536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DFE1E6942C30194200FD1610 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,7 @@
 				DF9CAA1F2C300F4E00B49536 /* Info.plist */,
 				DF9CAA212C30103B00B49536 /* Models */,
 				DF9CAA0D2C300C6300B49536 /* Preview Content */,
-				DF9CAA202C300FF500B49536 /* UICommon */,
+				DFE1E6912C30190900FD1610 /* UICommon */,
 				DF9CAA222C30103F00B49536 /* ViewModels */,
 				DF9CAA232C30104500B49536 /* Views */,
 			);
@@ -99,13 +101,6 @@
 				DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		DF9CAA202C300FF500B49536 /* UICommon */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UICommon;
 			sourceTree = "<group>";
 		};
 		DF9CAA212C30103B00B49536 /* Models */ = {
@@ -143,6 +138,22 @@
 			children = (
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		DFE1E6912C30190900FD1610 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				DFE1E6932C30192B00FD1610 /* Extensions */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		DFE1E6932C30192B00FD1610 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DFE1E6942C30194200FD1610 /* UIExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF9CAA0A2C300C6200B49536 /* ContentView.swift in Sources */,
+				DFE1E6952C30194200FD1610 /* UIExtension.swift in Sources */,
 				DF9CAA082C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

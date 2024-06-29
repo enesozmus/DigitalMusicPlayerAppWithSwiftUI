@@ -11,6 +11,10 @@
 		DF9CAA0A2C300C6200B49536 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9CAA092C300C6200B49536 /* ContentView.swift */; };
 		DF9CAA0C2C300C6300B49536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA0B2C300C6300B49536 /* Assets.xcassets */; };
 		DF9CAA0F2C300C6300B49536 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA0E2C300C6300B49536 /* Preview Assets.xcassets */; };
+		DF9CAA1B2C300E9700B49536 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA172C300E9700B49536 /* CircularStd-Black.otf */; };
+		DF9CAA1C2C300E9700B49536 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA182C300E9700B49536 /* CircularStd-Bold.otf */; };
+		DF9CAA1D2C300E9700B49536 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA192C300E9700B49536 /* CircularStd-Book.otf */; };
+		DF9CAA1E2C300E9700B49536 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		DF9CAA092C300C6200B49536 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF9CAA0B2C300C6300B49536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF9CAA0E2C300C6300B49536 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF9CAA172C300E9700B49536 /* CircularStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Black.otf"; sourceTree = "<group>"; };
+		DF9CAA182C300E9700B49536 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
+		DF9CAA192C300E9700B49536 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
+		DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
+		DF9CAA1F2C300F4E00B49536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +60,15 @@
 		DF9CAA062C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				DF9CAA072C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift */,
+				DF9CAA152C300C7300B49536 /* App */,
 				DF9CAA092C300C6200B49536 /* ContentView.swift */,
-				DF9CAA0B2C300C6300B49536 /* Assets.xcassets */,
+				DF9CAA162C300E8200B49536 /* Fonts */,
+				DF9CAA1F2C300F4E00B49536 /* Info.plist */,
+				DF9CAA212C30103B00B49536 /* Models */,
 				DF9CAA0D2C300C6300B49536 /* Preview Content */,
+				DF9CAA202C300FF500B49536 /* UICommon */,
+				DF9CAA222C30103F00B49536 /* ViewModels */,
+				DF9CAA232C30104500B49536 /* Views */,
 			);
 			path = DigitalMusicPlayerAppWithSwiftUI;
 			sourceTree = "<group>";
@@ -65,6 +79,70 @@
 				DF9CAA0E2C300C6300B49536 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF9CAA152C300C7300B49536 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DF9CAA0B2C300C6300B49536 /* Assets.xcassets */,
+				DF9CAA072C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DF9CAA162C300E8200B49536 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DF9CAA172C300E9700B49536 /* CircularStd-Black.otf */,
+				DF9CAA182C300E9700B49536 /* CircularStd-Bold.otf */,
+				DF9CAA192C300E9700B49536 /* CircularStd-Book.otf */,
+				DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DF9CAA202C300FF500B49536 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		DF9CAA212C30103B00B49536 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF9CAA222C30103F00B49536 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DF9CAA232C30104500B49536 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF9CAA272C30107100B49536 /* Home */,
+				DF9CAA262C30106B00B49536 /* MainTab */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF9CAA262C30106B00B49536 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		DF9CAA272C30107100B49536 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +203,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9CAA1D2C300E9700B49536 /* CircularStd-Book.otf in Resources */,
+				DF9CAA1B2C300E9700B49536 /* CircularStd-Black.otf in Resources */,
+				DF9CAA1C2C300E9700B49536 /* CircularStd-Bold.otf in Resources */,
 				DF9CAA0F2C300C6300B49536 /* Preview Assets.xcassets in Resources */,
 				DF9CAA0C2C300C6300B49536 /* Assets.xcassets in Resources */,
+				DF9CAA1E2C300E9700B49536 /* CircularStd-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +356,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DigitalMusicPlayerAppWithSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigitalMusicPlayerAppWithSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +369,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.ozmus.enes.DigitalMusicPlayerAppWithSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,11 +389,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DigitalMusicPlayerAppWithSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigitalMusicPlayerAppWithSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +402,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.ozmus.enes.DigitalMusicPlayerAppWithSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     
+    @StateObject private var vm: MainViewModel = MainViewModel.share
+    
     @State private var txtSearch: String = ""
     @State var hostRecommendedArr = [
         [
@@ -217,7 +219,7 @@ extension HomeView {
     private var recentlyPlayedLazyVerticalStackView: some View {
         LazyVStack(spacing: 10) {
             ForEach(0..<recentlyPlayedArr.count, id: \.self) { index in
-                var sObj = recentlyPlayedArr[index] as? [String:Any] ?? [:]
+                let sObj = recentlyPlayedArr[index] as? [String:Any] ?? [:]
                 
                 HStack {
                     Button {
@@ -269,7 +271,7 @@ extension HomeView {
         VStack {
             HStack(spacing: 15) {
                 Button {
-                    print("Open Menu")
+                    vm.isShowSideMenu = true
                 } label: {
                     Image("menu")
                         .resizable()

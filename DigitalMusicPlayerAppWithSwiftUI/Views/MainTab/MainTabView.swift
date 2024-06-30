@@ -9,18 +9,18 @@ import SwiftUI
 
 struct MainTabView: View {
     
-    @State var selectTab: Int = 0
+    @StateObject private var vm: MainViewModel = MainViewModel.share
     
     var body: some View {
         ZStack {
             
-            if(selectTab == 0) {
+            if(vm.selectTab == 0) {
                 HomeView()
-            } else if(selectTab == 1) {
+            } else if(vm.selectTab == 1) {
                 //SongsView()
                 Text("SongsView")
                     .foregroundStyle(.white)
-            } else if(selectTab == 2) {
+            } else if(vm.selectTab == 2) {
                 //SettingsView()
                 Text("SettingsView")
                     .foregroundStyle(.white)
@@ -34,24 +34,24 @@ struct MainTabView: View {
                         title: "Home",
                         icon: "home_tab",
                         iconUnfocus: "home_tab_un",
-                        isSelect: selectTab == 0) {
-                            selectTab = 0
+                        isSelect: vm.selectTab == 0) {
+                            vm.selectTab = 0
                         }
                     Spacer()
                     TabButton(
                         title: "Songs",
                         icon: "songs_tab",
                         iconUnfocus: "songs_tab_un",
-                        isSelect: selectTab == 1) {
-                            selectTab = 1
+                        isSelect: vm.selectTab == 1) {
+                            vm.selectTab = 1
                         }
                     Spacer()
                     TabButton(
                         title: "Settings",
                         icon: "setting_tab",
                         iconUnfocus: "setting_tab_un",
-                        isSelect: selectTab == 2) {
-                            selectTab = 2
+                        isSelect: vm.selectTab == 2) {
+                            vm.selectTab = 2
                         }
                     Spacer()
                 }
@@ -60,6 +60,9 @@ struct MainTabView: View {
                 .background(Color.bg)
                 .shadow(radius: 5)
             }
+            
+            SideMenuView(isShowSideMenu: $vm.isShowSideMenu)
+            
         }
         .frame(width: .screenWidth, height: .screenHeight)
         .background(Color.bg)

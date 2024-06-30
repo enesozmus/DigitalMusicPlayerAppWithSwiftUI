@@ -21,4 +21,4 @@
 
 | | | |
 | :-: | :-: | :-: |
-<video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/b39a6cef-d2fb-4384-80be-4162512605b5' width=180/> | <video src='' width=180/> | <video src='' width=180/>
+<video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/b39a6cef-d2fb-4384-80be-4162512605b5' width=180/> | <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/22653595-bda9-4514-9252-62b67f609ab0' width=180/> | <video src='' width=180/>

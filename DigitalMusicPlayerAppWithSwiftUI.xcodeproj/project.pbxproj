@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DF7167942C315931001C9A2D /* ViewAllSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7167932C315931001C9A2D /* ViewAllSection.swift */; };
+		DF7167962C3165E9001C9A2D /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7167952C3165E9001C9A2D /* SideMenuView.swift */; };
+		DF7167982C316625001C9A2D /* IconTextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7167972C316625001C9A2D /* IconTextRow.swift */; };
 		DF9CAA082C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9CAA072C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift */; };
 		DF9CAA0C2C300C6300B49536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA0B2C300C6300B49536 /* Assets.xcassets */; };
 		DF9CAA0F2C300C6300B49536 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA0E2C300C6300B49536 /* Preview Assets.xcassets */; };
@@ -20,10 +22,13 @@
 		DFE1E6992C301E6700FD1610 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E6982C301E6700FD1610 /* MainTabView.swift */; };
 		DFE1E69C2C302FD800FD1610 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E69B2C302FD800FD1610 /* TabButton.swift */; };
 		DFE1E69F2C303AB700FD1610 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E69E2C303AB700FD1610 /* HomeView.swift */; };
+		DFE8EF512C317D5E0012C051 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8EF502C317D5E0012C051 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF7167932C315931001C9A2D /* ViewAllSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllSection.swift; sourceTree = "<group>"; };
+		DF7167952C3165E9001C9A2D /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		DF7167972C316625001C9A2D /* IconTextRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextRow.swift; sourceTree = "<group>"; };
 		DF9CAA042C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalMusicPlayerAppWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9CAA072C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalMusicPlayerAppWithSwiftUIApp.swift; sourceTree = "<group>"; };
 		DF9CAA0B2C300C6300B49536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +44,7 @@
 		DFE1E69B2C302FD800FD1610 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		DFE1E69D2C3036E100FD1610 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DFE1E69E2C303AB700FD1610 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DFE8EF502C317D5E0012C051 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,7 @@
 		DF9CAA222C30103F00B49536 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				DFE8EF502C317D5E0012C051 /* MainViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -140,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				DFE1E6982C301E6700FD1610 /* MainTabView.swift */,
+				DF7167952C3165E9001C9A2D /* SideMenuView.swift */,
 			);
 			path = MainTab;
 			sourceTree = "<group>";
@@ -174,6 +182,7 @@
 			children = (
 				DFE1E69B2C302FD800FD1610 /* TabButton.swift */,
 				DF7167932C315931001C9A2D /* ViewAllSection.swift */,
+				DF7167972C316625001C9A2D /* IconTextRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -254,11 +263,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF7167942C315931001C9A2D /* ViewAllSection.swift in Sources */,
+				DF7167962C3165E9001C9A2D /* SideMenuView.swift in Sources */,
+				DF7167982C316625001C9A2D /* IconTextRow.swift in Sources */,
 				DFE1E6952C30194200FD1610 /* UIExtension.swift in Sources */,
 				DFE1E69C2C302FD800FD1610 /* TabButton.swift in Sources */,
 				DF9CAA082C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift in Sources */,
 				DFE1E69F2C303AB700FD1610 /* HomeView.swift in Sources */,
 				DFE1E6992C301E6700FD1610 /* MainTabView.swift in Sources */,
+				DFE8EF512C317D5E0012C051 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

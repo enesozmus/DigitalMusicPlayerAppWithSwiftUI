@@ -9,15 +9,13 @@ import SwiftUI
 
 struct MainTabView: View {
     
-    @State private var selectTab: Int = 0
+    @State var selectTab: Int = 0
     
     var body: some View {
         ZStack {
             
             if(selectTab == 0) {
-                //HomeView()
-                Text("HomeView")
-                    .foregroundStyle(.white)
+                HomeView()
             } else if(selectTab == 1) {
                 //SongsView()
                 Text("SongsView")

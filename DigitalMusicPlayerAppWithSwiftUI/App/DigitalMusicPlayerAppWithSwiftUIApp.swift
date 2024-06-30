@@ -14,6 +14,7 @@ struct DigitalMusicPlayerAppWithSwiftUIApp: App {
             NavigationStack {
                 MainTabView()
             }
+            .navigationViewStyle(.stack)
         }
     }
 }

@@ -121,9 +121,7 @@ struct SongsView: View {
                     
                     AllSongsView()
                         .tag(0)
-                    Rectangle()
-                        .fill(.green)
-                        .ignoresSafeArea()
+                    PlaylistsView()
                         .tag(1)
                     Rectangle()
                         .fill(.black)
@@ -138,8 +136,6 @@ struct SongsView: View {
                         .ignoresSafeArea()
                         .tag(4)
                     
-                    //                    PlaylistsView()
-                    //                        .tag(1)
                     //
                     //                    AlbumsView()
                     //                        .tag(2)

@@ -17,12 +17,16 @@
 		DF9CAA1C2C300E9700B49536 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA182C300E9700B49536 /* CircularStd-Bold.otf */; };
 		DF9CAA1D2C300E9700B49536 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA192C300E9700B49536 /* CircularStd-Book.otf */; };
 		DF9CAA1E2C300E9700B49536 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */; };
+		DFD6A5742C32BA180024E4DB /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6A5732C32BA180024E4DB /* SongRow.swift */; };
+		DFD6A5762C32BAA90024E4DB /* AllSongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6A5752C32BAA90024E4DB /* AllSongsView.swift */; };
 		DFE1E6952C30194200FD1610 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E6942C30194200FD1610 /* UIExtension.swift */; };
 		DFE1E6972C3019A600FD1610 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE1E6962C3019A600FD1610 /* Launch Screen.storyboard */; };
 		DFE1E6992C301E6700FD1610 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E6982C301E6700FD1610 /* MainTabView.swift */; };
 		DFE1E69C2C302FD800FD1610 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E69B2C302FD800FD1610 /* TabButton.swift */; };
 		DFE1E69F2C303AB700FD1610 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1E69E2C303AB700FD1610 /* HomeView.swift */; };
 		DFE8EF512C317D5E0012C051 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8EF502C317D5E0012C051 /* MainViewModel.swift */; };
+		DFE8EF552C3183D40012C051 /* SongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8EF542C3183D40012C051 /* SongsView.swift */; };
+		DFE8EF572C3185E40012C051 /* ScrollTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8EF562C3185E40012C051 /* ScrollTabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,8 @@
 		DF9CAA192C300E9700B49536 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
 		DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
 		DF9CAA1F2C300F4E00B49536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DFD6A5732C32BA180024E4DB /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
+		DFD6A5752C32BAA90024E4DB /* AllSongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSongsView.swift; sourceTree = "<group>"; };
 		DFE1E6942C30194200FD1610 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		DFE1E6962C3019A600FD1610 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		DFE1E6982C301E6700FD1610 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -45,6 +51,8 @@
 		DFE1E69D2C3036E100FD1610 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DFE1E69E2C303AB700FD1610 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DFE8EF502C317D5E0012C051 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		DFE8EF542C3183D40012C051 /* SongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsView.swift; sourceTree = "<group>"; };
+		DFE8EF562C3185E40012C051 /* ScrollTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +147,7 @@
 			children = (
 				DF9CAA272C30107100B49536 /* Home */,
 				DF9CAA262C30106B00B49536 /* MainTab */,
+				DFE8EF522C3183B40012C051 /* Songs */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,11 +189,22 @@
 		DFE1E69A2C302FCF00FD1610 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DF7167972C316625001C9A2D /* IconTextRow.swift */,
 				DFE1E69B2C302FD800FD1610 /* TabButton.swift */,
 				DF7167932C315931001C9A2D /* ViewAllSection.swift */,
-				DF7167972C316625001C9A2D /* IconTextRow.swift */,
+				DFE8EF562C3185E40012C051 /* ScrollTabButton.swift */,
+				DFD6A5732C32BA180024E4DB /* SongRow.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		DFE8EF522C3183B40012C051 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				DFE8EF542C3183D40012C051 /* SongsView.swift */,
+				DFD6A5752C32BAA90024E4DB /* AllSongsView.swift */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE8EF572C3185E40012C051 /* ScrollTabButton.swift in Sources */,
 				DF7167942C315931001C9A2D /* ViewAllSection.swift in Sources */,
 				DF7167962C3165E9001C9A2D /* SideMenuView.swift in Sources */,
+				DFD6A5762C32BAA90024E4DB /* AllSongsView.swift in Sources */,
+				DFD6A5742C32BA180024E4DB /* SongRow.swift in Sources */,
 				DF7167982C316625001C9A2D /* IconTextRow.swift in Sources */,
+				DFE8EF552C3183D40012C051 /* SongsView.swift in Sources */,
 				DFE1E6952C30194200FD1610 /* UIExtension.swift in Sources */,
 				DFE1E69C2C302FD800FD1610 /* TabButton.swift in Sources */,
 				DF9CAA082C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift in Sources */,

@@ -21,4 +21,8 @@
 
 | | | |
 | :-: | :-: | :-: |
-<video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/b39a6cef-d2fb-4384-80be-4162512605b5' width=180/> | <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/22653595-bda9-4514-9252-62b67f609ab0' width=180/> | <video src='' width=180/>
+<video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/dce4bbff-274a-48ce-a5dd-78dbe2ba831c' width=180/> | <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/22653595-bda9-4514-9252-62b67f609ab0' width=180/> | <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/6a11d8e3-d722-4c96-9dc5-3f6cdd700a42' width=180/>
+
+| | | |
+| :-: | :-: | :-: |
+<video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/be0138af-b1b6-4a5b-87d1-58e0f7d2eb69' width=180/> | <video src='' width=180/> | <video src='' width=180/>

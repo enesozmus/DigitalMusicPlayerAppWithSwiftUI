@@ -17,9 +17,7 @@ struct MainTabView: View {
             if(vm.selectTab == 0) {
                 HomeView()
             } else if(vm.selectTab == 1) {
-                //SongsView()
-                Text("SongsView")
-                    .foregroundStyle(.white)
+                SongsView()
             } else if(vm.selectTab == 2) {
                 //SettingsView()
                 Text("SettingsView")

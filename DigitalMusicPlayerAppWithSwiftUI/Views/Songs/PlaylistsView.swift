@@ -10,10 +10,10 @@ import SwiftUI
 struct PlaylistsView: View {
     
     @State var playlistArr: NSArray = [
-        ["image":"playlist_1",  "name":"My Top Tracks", "songs":"100 Songs"],
-        ["image": "playlist_2", "name": "Latest Added", "songs": "323 Songs"],
-        ["image": "playlist_3", "name": "History",      "songs": "450 Songs"],
-        ["image": "playlist_4", "name": "Favorites",    "songs": "966 Songs"]
+        ["image": "playlist_1",  "name":"My Top Tracks", "songs":"100 Songs"],
+        ["image": "playlist_2",  "name": "Latest Added", "songs": "323 Songs"],
+        ["image": "playlist_3",  "name": "History",      "songs": "450 Songs"],
+        ["image": "playlist_4",  "name": "Favorites",    "songs": "966 Songs"]
     ]
     
     @State var myPlaylistArr: NSArray = [

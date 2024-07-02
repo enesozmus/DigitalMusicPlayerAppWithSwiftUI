@@ -30,6 +30,10 @@
 		DFE8EF512C317D5E0012C051 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8EF502C317D5E0012C051 /* MainViewModel.swift */; };
 		DFE8EF552C3183D40012C051 /* SongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8EF542C3183D40012C051 /* SongsView.swift */; };
 		DFE8EF572C3185E40012C051 /* ScrollTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8EF562C3185E40012C051 /* ScrollTabButton.swift */; };
+		DFF5E2072C32E232004405D8 /* AlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5E2062C32E232004405D8 /* AlbumsView.swift */; };
+		DFF5E2092C32E2DA004405D8 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5E2082C32E2DA004405D8 /* AlbumCell.swift */; };
+		DFF5E20B2C32E417004405D8 /* AlbumDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5E20A2C32E417004405D8 /* AlbumDetailsView.swift */; };
+		DFF5E20D2C32E55B004405D8 /* AlbumSongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF5E20C2C32E55B004405D8 /* AlbumSongRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +63,10 @@
 		DFE8EF502C317D5E0012C051 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DFE8EF542C3183D40012C051 /* SongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsView.swift; sourceTree = "<group>"; };
 		DFE8EF562C3185E40012C051 /* ScrollTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTabButton.swift; sourceTree = "<group>"; };
+		DFF5E2062C32E232004405D8 /* AlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsView.swift; sourceTree = "<group>"; };
+		DFF5E2082C32E2DA004405D8 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		DFF5E20A2C32E417004405D8 /* AlbumDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsView.swift; sourceTree = "<group>"; };
+		DFF5E20C2C32E55B004405D8 /* AlbumSongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSongRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +203,8 @@
 		DFE1E69A2C302FCF00FD1610 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DFF5E2082C32E2DA004405D8 /* AlbumCell.swift */,
+				DFF5E20C2C32E55B004405D8 /* AlbumSongRow.swift */,
 				DF7167972C316625001C9A2D /* IconTextRow.swift */,
 				DFD6A57B2C32BEDC0024E4DB /* MyPlaylistCell.swift */,
 				DFD6A5792C32BECE0024E4DB /* PlaylistSongCell.swift */,
@@ -209,6 +219,8 @@
 		DFE8EF522C3183B40012C051 /* Songs */ = {
 			isa = PBXGroup;
 			children = (
+				DFF5E20A2C32E417004405D8 /* AlbumDetailsView.swift */,
+				DFF5E2062C32E232004405D8 /* AlbumsView.swift */,
 				DFD6A5752C32BAA90024E4DB /* AllSongsView.swift */,
 				DFD6A5772C32BE4D0024E4DB /* PlaylistsView.swift */,
 				DFE8EF542C3183D40012C051 /* SongsView.swift */,
@@ -300,13 +312,17 @@
 				DF7167982C316625001C9A2D /* IconTextRow.swift in Sources */,
 				DFD6A57C2C32BEDC0024E4DB /* MyPlaylistCell.swift in Sources */,
 				DFE8EF552C3183D40012C051 /* SongsView.swift in Sources */,
+				DFF5E20B2C32E417004405D8 /* AlbumDetailsView.swift in Sources */,
 				DFE1E6952C30194200FD1610 /* UIExtension.swift in Sources */,
 				DFE1E69C2C302FD800FD1610 /* TabButton.swift in Sources */,
 				DF9CAA082C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift in Sources */,
+				DFF5E20D2C32E55B004405D8 /* AlbumSongRow.swift in Sources */,
 				DFD6A5782C32BE4D0024E4DB /* PlaylistsView.swift in Sources */,
 				DFE1E69F2C303AB700FD1610 /* HomeView.swift in Sources */,
+				DFF5E2072C32E232004405D8 /* AlbumsView.swift in Sources */,
 				DFE1E6992C301E6700FD1610 /* MainTabView.swift in Sources */,
 				DFE8EF512C317D5E0012C051 /* MainViewModel.swift in Sources */,
+				DFF5E2092C32E2DA004405D8 /* AlbumCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

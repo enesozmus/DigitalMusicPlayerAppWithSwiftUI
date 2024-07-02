@@ -116,29 +116,17 @@ struct SongsView: View {
                 .frame(height: 25)
                 .background(Color.bg)
                 
-                
                 TabView(selection: $selectTab) {
-                    
                     AllSongsView()
                         .tag(0)
                     PlaylistsView()
                         .tag(1)
                     AlbumsView()
                         .tag(2)
-                    Rectangle()
-                        .fill(.red)
-                        .ignoresSafeArea()
+                    ArtistsView()
                         .tag(3)
-                    Rectangle()
-                        .fill(.purple)
-                        .ignoresSafeArea()
+                    GenresView()
                         .tag(4)
-                    
-                    //                    ArtistsView()
-                    //                        .tag(3)
-                    //
-                    //                    GenresView()
-                    //                        .tag(4)
                 }
                 .tabViewStyle(PageTabViewStyle( indexDisplayMode: .never))
                 .padding(.bottom, .bottomInsets + 40)

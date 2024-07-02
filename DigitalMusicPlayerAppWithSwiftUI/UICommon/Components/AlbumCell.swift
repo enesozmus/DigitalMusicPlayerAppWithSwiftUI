@@ -22,8 +22,7 @@ struct AlbumCell: View {
                 .resizable()
                 .scaledToFill()
                 .aspectRatio( CGSize(width: 1, height: 1) , contentMode: .fit)
-                .frame(width: .infinity, height: .infinity)
-            
+                .frame(maxWidth: .infinity)
             
             VStack(spacing: 4) {
                 HStack {

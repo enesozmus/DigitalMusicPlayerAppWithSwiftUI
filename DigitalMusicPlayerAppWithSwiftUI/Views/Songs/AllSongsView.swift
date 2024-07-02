@@ -63,7 +63,6 @@ struct AllSongsView: View {
         ScrollView {
             LazyVStack(spacing: 10) {
                 ForEach(0..<allArr.count, id:\.self) { index in
-                    
                     let sObj = allArr[index] as? NSDictionary ?? [:]
                     
                     NavigationLink {

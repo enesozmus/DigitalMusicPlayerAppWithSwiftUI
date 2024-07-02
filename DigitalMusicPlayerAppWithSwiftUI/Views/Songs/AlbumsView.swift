@@ -68,7 +68,7 @@ struct AlbumsView: View {
     var body: some View {
         ScrollView {
             LazyVGrid(columns: columnGrid, spacing: 15) {
-                ForEach (0..<allArr.count, id:\.self) { index in
+                ForEach(0..<allArr.count, id:\.self) { index in
                     let sObj = allArr[index] as? NSDictionary ?? [:]
                     NavigationLink {
                         AlbumDetailsView()
@@ -82,6 +82,7 @@ struct AlbumsView: View {
         .background(Color.bg)
     }
 }
+
 
 #Preview {
     NavigationStack {

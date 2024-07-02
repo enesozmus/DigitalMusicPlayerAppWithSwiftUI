@@ -56,7 +56,7 @@ struct ArtistsView: View {
                     let aObj = allArr[index] as? NSDictionary ?? [:]
                     
                     NavigationLink {
-                        //ArtistDetailsView()
+                        ArtistDetailsView()
                     } label: {
                         ArtistCell(aObj: aObj)
                     }

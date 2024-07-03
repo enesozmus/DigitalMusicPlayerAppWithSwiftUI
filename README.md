@@ -14,7 +14,12 @@
 > * Genres and Play Songs: Allow users to explore music by Genres and play their favorite tracks.
 > * Settings Screen: Design a user-friendly Settings screen for customization.
 
-## 📹 Screen Recordings:
+## 📹 App:
+| |
+| :-: |
+<video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/2f2b0989-a523-4926-aaa3-6c4bc8e8abf7' width=180/> |
+
+## 📹 Stages of Development:
 | | | |
 | :-: | :-: | :-: |
 <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/067baa82-e788-4efd-a77b-10e2c5a38d09' width=180/> | <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/e7298aa1-b43c-4151-a350-d8ee346e12ef' width=180/> | <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/1d5ad98f-5cd9-451b-ba13-5a0da3212540' width=180/>

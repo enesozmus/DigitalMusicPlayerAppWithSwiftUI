@@ -1,0 +1,51 @@
+{
+  "originHash" : "c3d568f980a4c42ce3e293b4b18fd83611997659286a6569a1e8e9dd1460d643",
+  "pins" : [
+    {
+      "identity" : "circularslider",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/terlan98/CircularSlider",
+      "state" : {
+        "revision" : "001b76303fce5cd21764fae334720ff69a91392f",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "rxmusicplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yoheimuta/RxMusicPlayer",
+      "state" : {
+        "revision" : "27b3c6a6f6f2c0e65be5df40eeab5e462ed0190f",
+        "version" : "2.3.3"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift",
+      "state" : {
+        "revision" : "b06a8c8596e4c3e8e7788e08e720e3248563ce6a",
+        "version" : "6.7.1"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "be0bcd7823ce56629948491f2eaeaa19979514f7",
+        "version" : "5.19.4"
+      }
+    },
+    {
+      "identity" : "sdwebimageswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
+      "state" : {
+        "revision" : "5d462f7530677ae0c2b9510c26383aa25ba48751",
+        "version" : "3.1.1"
+      }
+    }
+  ],
+  "version" : 3
+}

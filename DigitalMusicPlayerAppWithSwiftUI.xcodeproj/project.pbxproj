@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		DF65860F2C33F60B00A5E604 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65860D2C33F60B00A5E604 /* MainTabView.swift */; };
 		DF6586102C33F60B00A5E604 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65860E2C33F60B00A5E604 /* SideMenuView.swift */; };
+		DF6586142C33F7E100A5E604 /* MainPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6586132C33F7E100A5E604 /* MainPlayerView.swift */; };
+		DF6586162C33F81600A5E604 /* AudioPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6586152C33F81600A5E604 /* AudioPlayerViewModel.swift */; };
+		DF6586182C33F93300A5E604 /* DriverModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6586172C33F93300A5E604 /* DriverModeView.swift */; };
+		DF65861B2C33FAD200A5E604 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DF65861A2C33FAD200A5E604 /* SDWebImageSwiftUI */; };
+		DF65861E2C33FC4200A5E604 /* CircularSlider in Frameworks */ = {isa = PBXBuildFile; productRef = DF65861D2C33FC4200A5E604 /* CircularSlider */; };
+		DF6586202C33FD8200A5E604 /* ProgressSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65861F2C33FD8200A5E604 /* ProgressSliderView.swift */; };
+		DF6586222C33FDD300A5E604 /* UIProgressSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6586212C33FDD300A5E604 /* UIProgressSlider.swift */; };
+		DF6586242C33FF4700A5E604 /* PlayPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6586232C33FF4700A5E604 /* PlayPlaylistView.swift */; };
+		DF6586262C33FFF200A5E604 /* PlayerBottomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6586252C33FFF200A5E604 /* PlayerBottomButton.swift */; };
+		DF6586292C3404E400A5E604 /* RxMusicPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = DF6586282C3404E400A5E604 /* RxMusicPlayer */; };
 		DF7167942C315931001C9A2D /* ViewAllSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7167932C315931001C9A2D /* ViewAllSection.swift */; };
 		DF7167982C316625001C9A2D /* IconTextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7167972C316625001C9A2D /* IconTextRow.swift */; };
 		DF9CAA082C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9CAA072C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift */; };
@@ -45,6 +55,13 @@
 /* Begin PBXFileReference section */
 		DF65860D2C33F60B00A5E604 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		DF65860E2C33F60B00A5E604 /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		DF6586132C33F7E100A5E604 /* MainPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPlayerView.swift; sourceTree = "<group>"; };
+		DF6586152C33F81600A5E604 /* AudioPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewModel.swift; sourceTree = "<group>"; };
+		DF6586172C33F93300A5E604 /* DriverModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverModeView.swift; sourceTree = "<group>"; };
+		DF65861F2C33FD8200A5E604 /* ProgressSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressSliderView.swift; sourceTree = "<group>"; };
+		DF6586212C33FDD300A5E604 /* UIProgressSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressSlider.swift; sourceTree = "<group>"; };
+		DF6586232C33FF4700A5E604 /* PlayPlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPlaylistView.swift; sourceTree = "<group>"; };
+		DF6586252C33FFF200A5E604 /* PlayerBottomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBottomButton.swift; sourceTree = "<group>"; };
 		DF7167932C315931001C9A2D /* ViewAllSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllSection.swift; sourceTree = "<group>"; };
 		DF7167972C316625001C9A2D /* IconTextRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextRow.swift; sourceTree = "<group>"; };
 		DF9CAA042C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalMusicPlayerAppWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +103,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6586292C3404E400A5E604 /* RxMusicPlayer in Frameworks */,
+				DF65861E2C33FC4200A5E604 /* CircularSlider in Frameworks */,
+				DF65861B2C33FAD200A5E604 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +119,16 @@
 				DF65860E2C33F60B00A5E604 /* SideMenuView.swift */,
 			);
 			path = MainTab;
+			sourceTree = "<group>";
+		};
+		DF6586112C33F7CB00A5E604 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				DF6586172C33F93300A5E604 /* DriverModeView.swift */,
+				DF6586132C33F7E100A5E604 /* MainPlayerView.swift */,
+				DF6586232C33FF4700A5E604 /* PlayPlaylistView.swift */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 		DF9CA9FB2C300C6200B49536 = {
@@ -172,6 +202,7 @@
 		DF9CAA222C30103F00B49536 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				DF6586152C33F81600A5E604 /* AudioPlayerViewModel.swift */,
 				DFE8EF502C317D5E0012C051 /* MainViewModel.swift */,
 			);
 			path = ViewModels;
@@ -182,6 +213,7 @@
 			children = (
 				DF9CAA272C30107100B49536 /* Home */,
 				DF65860C2C33F5CE00A5E604 /* MainTab */,
+				DF6586112C33F7CB00A5E604 /* Player */,
 				DFE8EF522C3183B40012C051 /* Songs */,
 			);
 			path = Views;
@@ -217,16 +249,19 @@
 			children = (
 				DFF5E2082C32E2DA004405D8 /* AlbumCell.swift */,
 				DFF5E20C2C32E55B004405D8 /* AlbumSongRow.swift */,
+				DFF5E2182C33F1AE004405D8 /* ArtistAlbumCell.swift */,
 				DFF5E2102C33E841004405D8 /* ArtistCell.swift */,
 				DFF5E2142C33EAE7004405D8 /* GenreCell.swift */,
 				DF7167972C316625001C9A2D /* IconTextRow.swift */,
 				DFD6A57B2C32BEDC0024E4DB /* MyPlaylistCell.swift */,
+				DF6586252C33FFF200A5E604 /* PlayerBottomButton.swift */,
 				DFD6A5792C32BECE0024E4DB /* PlaylistSongCell.swift */,
+				DF65861F2C33FD8200A5E604 /* ProgressSliderView.swift */,
 				DFE8EF562C3185E40012C051 /* ScrollTabButton.swift */,
 				DFD6A5732C32BA180024E4DB /* SongRow.swift */,
 				DFE1E69B2C302FD800FD1610 /* TabButton.swift */,
+				DF6586212C33FDD300A5E604 /* UIProgressSlider.swift */,
 				DF7167932C315931001C9A2D /* ViewAllSection.swift */,
-				DFF5E2182C33F1AE004405D8 /* ArtistAlbumCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -262,6 +297,11 @@
 			dependencies = (
 			);
 			name = DigitalMusicPlayerAppWithSwiftUI;
+			packageProductDependencies = (
+				DF65861A2C33FAD200A5E604 /* SDWebImageSwiftUI */,
+				DF65861D2C33FC4200A5E604 /* CircularSlider */,
+				DF6586282C3404E400A5E604 /* RxMusicPlayer */,
+			);
 			productName = DigitalMusicPlayerAppWithSwiftUI;
 			productReference = DF9CAA042C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -290,6 +330,12 @@
 				Base,
 			);
 			mainGroup = DF9CA9FB2C300C6200B49536;
+			packageReferences = (
+				DF6586192C33FAD200A5E604 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				DF65861C2C33FC4200A5E604 /* XCRemoteSwiftPackageReference "CircularSlider" */,
+				DF6586272C3404E400A5E604 /* XCRemoteSwiftPackageReference "RxMusicPlayer" */,
+				DF65862A2C34053400A5E604 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = DF9CAA052C300C6200B49536 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -324,6 +370,8 @@
 				DFF5E2112C33E841004405D8 /* ArtistCell.swift in Sources */,
 				DFF5E2132C33EAB1004405D8 /* GenresView.swift in Sources */,
 				DFE8EF572C3185E40012C051 /* ScrollTabButton.swift in Sources */,
+				DF6586142C33F7E100A5E604 /* MainPlayerView.swift in Sources */,
+				DF6586262C33FFF200A5E604 /* PlayerBottomButton.swift in Sources */,
 				DFD6A57A2C32BECE0024E4DB /* PlaylistSongCell.swift in Sources */,
 				DF7167942C315931001C9A2D /* ViewAllSection.swift in Sources */,
 				DFD6A5762C32BAA90024E4DB /* AllSongsView.swift in Sources */,
@@ -334,11 +382,16 @@
 				DFD6A57C2C32BEDC0024E4DB /* MyPlaylistCell.swift in Sources */,
 				DFE8EF552C3183D40012C051 /* SongsView.swift in Sources */,
 				DFF5E2152C33EAE7004405D8 /* GenreCell.swift in Sources */,
+				DF6586202C33FD8200A5E604 /* ProgressSliderView.swift in Sources */,
 				DFF5E20B2C32E417004405D8 /* AlbumDetailsView.swift in Sources */,
 				DF6586102C33F60B00A5E604 /* SideMenuView.swift in Sources */,
+				DF6586162C33F81600A5E604 /* AudioPlayerViewModel.swift in Sources */,
+				DF6586222C33FDD300A5E604 /* UIProgressSlider.swift in Sources */,
 				DFF5E2172C33F0DD004405D8 /* ArtistDetailsView.swift in Sources */,
+				DF6586242C33FF4700A5E604 /* PlayPlaylistView.swift in Sources */,
 				DFE1E6952C30194200FD1610 /* UIExtension.swift in Sources */,
 				DFE1E69C2C302FD800FD1610 /* TabButton.swift in Sources */,
+				DF6586182C33F93300A5E604 /* DriverModeView.swift in Sources */,
 				DF9CAA082C300C6200B49536 /* DigitalMusicPlayerAppWithSwiftUIApp.swift in Sources */,
 				DFF5E20D2C32E55B004405D8 /* AlbumSongRow.swift in Sources */,
 				DFD6A5782C32BE4D0024E4DB /* PlaylistsView.swift in Sources */,
@@ -564,6 +617,59 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF6586192C33FAD200A5E604 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+		DF65861C2C33FC4200A5E604 /* XCRemoteSwiftPackageReference "CircularSlider" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/terlan98/CircularSlider";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		DF6586272C3404E400A5E604 /* XCRemoteSwiftPackageReference "RxMusicPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yoheimuta/RxMusicPlayer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+		DF65862A2C34053400A5E604 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF65861A2C33FAD200A5E604 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF6586192C33FAD200A5E604 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		DF65861D2C33FC4200A5E604 /* CircularSlider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF65861C2C33FC4200A5E604 /* XCRemoteSwiftPackageReference "CircularSlider" */;
+			productName = CircularSlider;
+		};
+		DF6586282C3404E400A5E604 /* RxMusicPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF6586272C3404E400A5E604 /* XCRemoteSwiftPackageReference "RxMusicPlayer" */;
+			productName = RxMusicPlayer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DF9CA9FC2C300C6200B49536 /* Project object */;
 }

@@ -146,5 +146,7 @@ struct SongsView: View {
 
 
 #Preview {
-    SongsView()
+    NavigationStack {
+        SongsView()
+    }
 }

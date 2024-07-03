@@ -66,7 +66,7 @@ struct AllSongsView: View {
                     let sObj = allArr[index] as? NSDictionary ?? [:]
                     
                     NavigationLink {
-                        //MainPlayerView()
+                        MainPlayerView()
                     } label: {
                         SongRow(sObj: sObj)
                     }

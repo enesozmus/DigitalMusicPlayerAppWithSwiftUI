@@ -28,6 +28,8 @@
 		DF9CAA1C2C300E9700B49536 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA182C300E9700B49536 /* CircularStd-Bold.otf */; };
 		DF9CAA1D2C300E9700B49536 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA192C300E9700B49536 /* CircularStd-Book.otf */; };
 		DF9CAA1E2C300E9700B49536 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */; };
+		DFC2813A2C357471004ED042 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC281392C357471004ED042 /* SettingsView.swift */; };
+		DFC2813C2C3574EB004ED042 /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2813B2C3574EB004ED042 /* SettingRow.swift */; };
 		DFD6A5742C32BA180024E4DB /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6A5732C32BA180024E4DB /* SongRow.swift */; };
 		DFD6A5762C32BAA90024E4DB /* AllSongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6A5752C32BAA90024E4DB /* AllSongsView.swift */; };
 		DFD6A5782C32BE4D0024E4DB /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6A5772C32BE4D0024E4DB /* PlaylistsView.swift */; };
@@ -73,6 +75,8 @@
 		DF9CAA192C300E9700B49536 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
 		DF9CAA1A2C300E9700B49536 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
 		DF9CAA1F2C300F4E00B49536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DFC281392C357471004ED042 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DFC2813B2C3574EB004ED042 /* SettingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
 		DFD6A5732C32BA180024E4DB /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
 		DFD6A5752C32BAA90024E4DB /* AllSongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSongsView.swift; sourceTree = "<group>"; };
 		DFD6A5772C32BE4D0024E4DB /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
@@ -211,6 +215,7 @@
 		DF9CAA232C30104500B49536 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DFC281382C357469004ED042 /* Settings */,
 				DF9CAA272C30107100B49536 /* Home */,
 				DF65860C2C33F5CE00A5E604 /* MainTab */,
 				DF6586112C33F7CB00A5E604 /* Player */,
@@ -225,6 +230,14 @@
 				DFE1E69E2C303AB700FD1610 /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		DFC281382C357469004ED042 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DFC281392C357471004ED042 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		DFE1E6912C30190900FD1610 /* UICommon */ = {
@@ -258,6 +271,7 @@
 				DFD6A5792C32BECE0024E4DB /* PlaylistSongCell.swift */,
 				DF65861F2C33FD8200A5E604 /* ProgressSliderView.swift */,
 				DFE8EF562C3185E40012C051 /* ScrollTabButton.swift */,
+				DFC2813B2C3574EB004ED042 /* SettingRow.swift */,
 				DFD6A5732C32BA180024E4DB /* SongRow.swift */,
 				DFE1E69B2C302FD800FD1610 /* TabButton.swift */,
 				DF6586212C33FDD300A5E604 /* UIProgressSlider.swift */,
@@ -372,6 +386,8 @@
 				DFE8EF572C3185E40012C051 /* ScrollTabButton.swift in Sources */,
 				DF6586142C33F7E100A5E604 /* MainPlayerView.swift in Sources */,
 				DF6586262C33FFF200A5E604 /* PlayerBottomButton.swift in Sources */,
+				DFC2813A2C357471004ED042 /* SettingsView.swift in Sources */,
+				DFC2813C2C3574EB004ED042 /* SettingRow.swift in Sources */,
 				DFD6A57A2C32BECE0024E4DB /* PlaylistSongCell.swift in Sources */,
 				DF7167942C315931001C9A2D /* ViewAllSection.swift in Sources */,
 				DFD6A5762C32BAA90024E4DB /* AllSongsView.swift in Sources */,

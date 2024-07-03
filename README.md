@@ -14,7 +14,7 @@
 > * Genres and Play Songs: Allow users to explore music by Genres and play their favorite tracks.
 > * Settings Screen: Design a user-friendly Settings screen for customization.
 
-## 📹 App:
+## 📹 App (turn the volume up):
 | |
 | :-: |
 <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/2f2b0989-a523-4926-aaa3-6c4bc8e8abf7' width=180/> |
@@ -32,6 +32,6 @@
 | :-: | :-: | :-: |
 <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/be0138af-b1b6-4a5b-87d1-58e0f7d2eb69' width=180/> | <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/b16ac33b-d6a9-4aaf-bd87-81bf6a115251' width=180/> | <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/c87bd884-a470-4fd6-a8ed-160739bbae04' width=180/>
 
-| | | |
-| :-: | :-: | :-: |
-<video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/658b134c-4b06-43f5-99ba-bf72cb5c68d9' width=180/> | <video src='' width=180/> | <video src='' width=180/>
+| | |
+| :-: | :-: |
+<video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/658b134c-4b06-43f5-99ba-bf72cb5c68d9' width=180/> | <video src='https://github.com/enesozmus/MyGithubAssets/assets/94680591/4ca032d2-66e5-420f-96f5-0b513862f4ee' width=180/>

@@ -19,9 +19,7 @@ struct MainTabView: View {
             } else if(vm.selectTab == 1) {
                 SongsView()
             } else if(vm.selectTab == 2) {
-                //SettingsView()
-                Text("SettingsView")
-                    .foregroundStyle(.white)
+                SettingsView()
             }
             
             VStack {
